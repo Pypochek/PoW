@@ -7,18 +7,41 @@ html {
   text-align: center;
   margin-bottom: 10px;
   padding: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 
   background-color: rgb(255, 244, 221);
 }
 
-.hr {
-  display: inline; /* Отображать как строчный элемент */
-  margin-right: 5px; /* Отступ слева */
+.menu {
+  display: inline;
+}
 
-  padding: 3px; /* Поля вокруг текста */
+.hr {
+  display: inline;
+  margin-right: 5px;
+
+  padding: 3px;
 
   font-family: Arial Narrow, sans-serif;
+}
+
+.menu-button {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 35px;
+}
+
+.menu-icon:active {
+  padding: 2px;
+  /* border: 1px solid black; */
+  width: 35px;
+  height: 5px;
 }
 
 .logo {
@@ -34,24 +57,30 @@ html {
   border-radius: 15px;
 }
 
-.logo-picture2 {
-  position: absolute;
-
-  top: 20px;
-  width: 75px;
-  height: 75px;
-}
-
 @media (max-width: 600px) {
-  .logo {
+  .head {
+    background-color: transparent;
+  }
+
+  .menu {
     display: none;
   }
 
+  .logo {
+    display: none;
+  }
   .hr {
     font-size: 45px;
     display: block;
   }
 
-  .menu {
+  .menu-button {
+    display: block;
+  }
+}
+
+@media (min-width: 600px) {
+  .menu-button {
+    display: none;
   }
 }
