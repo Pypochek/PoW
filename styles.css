@@ -5,9 +5,10 @@ html {
 
 .head {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   padding: 30px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
+
   background-color: rgb(255, 244, 221);
 }
 
@@ -29,7 +30,6 @@ html {
   top: 20px;
   width: 75px;
   height: 75px;
-  /* padding-left: 10px; */
 
   border-radius: 15px;
 }
@@ -40,4 +40,19 @@ html {
   top: 20px;
   width: 75px;
   height: 75px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+
+  .hr {
+    font-size: 45px;
+    display: block;
+  }
+
+  .menu {
+    margin: 35px;
+  }
 }
