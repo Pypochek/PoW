@@ -1,7 +1,14 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
 .head {
-  margin: 0;
-  padding: 4px;
   text-align: center;
+  margin-bottom: 100px;
+  padding: 30px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 244, 221);
 }
 
 .hr {
@@ -9,10 +16,28 @@
   margin-right: 5px; /* Отступ слева */
 
   padding: 3px; /* Поля вокруг текста */
+
+  font-family: Arial Narrow, sans-serif;
 }
 
 .logo {
+  text-align: left;
+}
+
+.logo-picture {
   position: absolute;
-  top: -1%;
-  padding-left: 1%;
+  top: 20px;
+  width: 75px;
+  height: 75px;
+  /* padding-left: 10px; */
+
+  border-radius: 15px;
+}
+
+.logo-picture2 {
+  position: absolute;
+
+  top: 20px;
+  width: 75px;
+  height: 75px;
 }
