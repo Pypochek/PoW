@@ -1,4 +1,18 @@
 .head {
-  font-style: Monospace;
-  display: inline-block;
+  margin: 0;
+  padding: 4px;
+  text-align: center;
+}
+
+.hr {
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 5px; /* Отступ слева */
+
+  padding: 3px; /* Поля вокруг текста */
+}
+
+.logo {
+  position: absolute;
+  top: -1%;
+  padding-left: 1%;
 }
