@@ -12,12 +12,7 @@ button.addEventListener("click", function () {
   document.querySelector(".hr1").style.marginTop = "50px";
 });
 
-// document.querySelector(".hr1").style.fontSize = "35px";
-
-// document.querySelector(".hr2").style.fontSize = "35px";
-// document.querySelector(".hr2").style.marginTop = "70px";
-// Пофиксить применение стиля только к одному елементу
-
-// document.querySelector(".hr1").style.marginLeft = "60px";
-// document.querySelector(".hr2").style.marginLeft = "60px";
-// document.querySelector(".hr2").style.marginTop = "70px";
+const copiedText = document.querySelector(".ip");
+copiedText.addEventListener("click", function () {
+  // window.navigato
+});

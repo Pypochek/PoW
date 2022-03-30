@@ -109,3 +109,9 @@ html {
     right: 0%;
   }
 }
+
+@media (max-width: 840px) {
+  .logo {
+    display: none;
+  }
+}
