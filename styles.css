@@ -43,9 +43,18 @@ html {
 
 .menu-icon:active {
   padding: 2px;
-  /* border: 1px solid black; */
+
   width: 35px;
   height: 5px;
+}
+
+.close-icon {
+  /* display: none; */
+  position: absolute;
+  top: 32px;
+  right: 11%;
+  font-family: sans-serif;
+  font-size: 40px;
 }
 
 .logo {
@@ -68,6 +77,14 @@ html {
   display: inline;
   text-align: right;
   right: 3%;
+}
+
+.ip:hover {
+  cursor: pointer;
+}
+
+.ip:active {
+  color: blue;
 }
 
 @media (max-width: 600px) {
@@ -107,6 +124,10 @@ html {
     display: inline;
     text-align: left;
     right: 0%;
+  }
+
+  .close-icon {
+    display: none;
   }
 }
 
