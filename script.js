@@ -7,9 +7,15 @@ button.addEventListener("click", function () {
   document.querySelector("header").style.paddingBottom = "100%";
 
   document.querySelector(".menu").style.display = "block";
-  document.querySelector(".hr").style.marginLeft = "60px";
-  document.querySelector(".hr").style.marginTop = "70px";
-  document.getElementsByClassName(".hr").style.fontSize = "35px";
+  document.querySelector(".menu").style.marginTop = "20%";
+  document.getElementsByClassName(".hr2").style.fontSize = "35px";
 
-  // Пофиксить применение чтиля только к одному елементу
+  document.getElementsByClassName(".hr2").style.fontSize = "35px";
 });
+
+// document.querySelector(".hr2").style.marginTop = "70px";
+// Пофиксить применение стиля только к одному елементу
+
+// document.querySelector(".hr1").style.marginLeft = "60px";
+// document.querySelector(".hr2").style.marginLeft = "60px";
+// document.querySelector(".hr2").style.marginTop = "70px";

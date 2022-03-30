@@ -16,7 +16,8 @@ html {
   display: inline;
 }
 
-.hr {
+.hr1,
+.hr2 {
   display: inline;
   margin-right: 5px;
 
@@ -69,7 +70,8 @@ html {
   .logo {
     display: none;
   }
-  .hr {
+  .hr1,
+  .hr2 {
     font-size: 45px;
     display: block;
   }
@@ -84,3 +86,7 @@ html {
     display: none;
   }
 }
+
+/* @media (max-width: 370px) {
+  
+} */
