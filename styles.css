@@ -114,6 +114,9 @@ html {
   .menu-button {
     display: none;
   }
+  .close-icon {
+    display: none;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -123,7 +126,6 @@ html {
     font-size: 25px;
     display: inline;
     text-align: left;
-    right: 0%;
   }
 
   .close-icon {
