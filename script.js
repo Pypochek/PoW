@@ -3,7 +3,7 @@ const button = document.querySelector(".menu-icon");
 button.addEventListener("click", function () {
   document.querySelector("header").style.backgroundColor = "rgb(255, 244, 221)";
   document.querySelector("header").style.display = "block";
-  document.querySelector("header").style.marginBottom = "100%";
+
   document.querySelector("header").style.paddingBottom = "100%";
 
   document.querySelector(".menu").style.display = "block";

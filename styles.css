@@ -1,13 +1,14 @@
 html {
   margin: 0px;
   padding: 0px;
+
+  height: "50%";
 }
 
 .header {
   text-align: center;
   margin-bottom: 10px;
   padding: 30px;
-  padding-bottom: 20px;
 
   background-color: rgb(255, 244, 221);
 }
