@@ -3,7 +3,7 @@ html {
   padding: 0px;
 }
 
-.head {
+.header {
   text-align: center;
   margin-bottom: 10px;
   padding: 30px;
@@ -58,7 +58,7 @@ html {
 }
 
 @media (max-width: 600px) {
-  .head {
+  .header {
     background-color: transparent;
   }
 
