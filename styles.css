@@ -3,14 +3,16 @@ html {
   padding: 0px;
 
   height: "50%";
+  background-color: rgb(58, 58, 58);
 }
 
 .header {
   text-align: center;
   margin-bottom: 10px;
   padding: 30px;
+  color: white;
 
-  background-color: rgb(255, 244, 221);
+  background-color: rgb(0, 0, 0);
 }
 
 .menu {
@@ -30,7 +32,7 @@ html {
 .menu-button {
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: white;
   margin: 6px 0;
 }
 
@@ -57,6 +59,15 @@ html {
   height: 75px;
 
   border-radius: 15px;
+}
+
+.ip {
+  position: absolute;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 32px;
+  display: inline;
+  text-align: right;
+  right: 3%;
 }
 
 @media (max-width: 600px) {
@@ -88,6 +99,13 @@ html {
   }
 }
 
-/* @media (max-width: 370px) {
-  
-} */
+@media (max-width: 1000px) {
+  .ip {
+    position: relative;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 25px;
+    display: inline;
+    text-align: left;
+    right: 0%;
+  }
+}
