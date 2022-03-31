@@ -33,12 +33,14 @@ html {
   width: 35px;
   height: 5px;
   background-color: white;
-  margin: 6px 0;
+  
+  margin:5px;
 }
 
-.menu-icon {
+.menu-icon{
   position: absolute;
   top: 35px;
+  /* margin: 10px */
 }
 
 .menu-icon:active {
@@ -94,6 +96,27 @@ html {
   height: 75px;
 }
 
+.name {
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: right;
+  position: absolute;
+  right: 10%
+
+
+}
+
+.name-bitshort {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  text-align: right;
+  position: absolute;
+  right: 10%;
+  
+  
+}
+
 @media (max-width: 1015px) {
   .header {
     background-color: transparent;
@@ -115,6 +138,12 @@ html {
   .menu-button {
     display: block;
   }
+
+  .name-bitshort {
+    display:none;
+  }
+
+  
 }
 
 @media (min-width: 1015px) {
@@ -122,6 +151,14 @@ html {
     display: none;
   }
   .close-icon {
+    display: none;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .name-bitshort {
     display: none;
   }
 }
@@ -145,4 +182,16 @@ html {
   .logo {
     display: none;
   }
+}
+
+@media (max-width: 515px) {
+
+  .name {
+    display: none;
+  }
+
+  .name-bitshort {
+    display: block;
+  }
+  
 }
