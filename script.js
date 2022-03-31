@@ -23,6 +23,10 @@ const buttonClose = document
   });
 
 const copiedText = document.querySelector(".ip");
+// copiedText.addEventListener("click", function () {
+//   window.navigator.clipboard.writeText("discord.gg/xMJQapRBYe");
+// });
+
 copiedText.addEventListener("click", function () {
-  window.navigator.clipboard.writeText("PolitOrWar.aternos.me");
+  window.open("https://discord.gg/xMJQapRBYe");
 });
