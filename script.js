@@ -14,6 +14,8 @@ const button = document
     document.querySelector(".close-icon").style.display = "block";
     document.querySelector(".name").style.display = "none";
     document.querySelector(".name-bitshort").style.display = "none";
+
+    document.querySelector(".information-title").style.display = "none";
   });
 
 const buttonClose = document
@@ -28,6 +30,8 @@ const buttonClose = document
       document.querySelector(".name-bitshort").style.display = "block";
     }
     document.querySelector(".close-icon").style.display = "none";
+    document.querySelector(".header").style.paddingBottom = "60px";
+    document.querySelector(".information-title").style.display = "block";
   });
 
 const copiedText = document.querySelector(".ip");
