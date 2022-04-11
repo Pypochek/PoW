@@ -17,6 +17,7 @@ const button = document
 
     document.querySelector(".information-title").style.display = "none";
     document.querySelector(".information-main").style.display = "none";
+    document.querySelector(".players-list").style.display = "none";
   });
 
 const buttonClose = document
@@ -34,6 +35,7 @@ const buttonClose = document
     document.querySelector(".header").style.paddingBottom = "60px";
     document.querySelector(".information-title").style.display = "block";
     document.querySelector(".information-main").style.display = "";
+    document.querySelector(".players-list").style.display = "";
   });
 
 const copiedText = document.querySelector(".ip");

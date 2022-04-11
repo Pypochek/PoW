@@ -318,13 +318,7 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, rgba(0,212,255,1) 100%);
 
 @media (max-width: 1325px) {
 
-  /* .players-list {
-    float: none;
-    position: relative;
-    top:0px;
-    right: 0%;  
-  } */
-
+ 
   .information-main {
     font-size: 22px;
     width: 50%;
