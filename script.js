@@ -4,7 +4,7 @@ const button = document
     document.querySelector(".header").style.backgroundColor = "black";
     document.querySelector(".header").style.display = "block";
 
-    document.querySelector(".header").style.paddingBottom = "100%";
+    document.querySelector(".header").style.paddingBottom = "75%";
 
     document.querySelector(".menu").style.display = "block";
     document.querySelector(".menu").style.marginTop = "30%";
@@ -16,6 +16,7 @@ const button = document
     document.querySelector(".name-bitshort").style.display = "none";
 
     document.querySelector(".information-title").style.display = "none";
+    document.querySelector(".information-main").style.display = "none";
   });
 
 const buttonClose = document
@@ -32,6 +33,7 @@ const buttonClose = document
     document.querySelector(".close-icon").style.display = "none";
     document.querySelector(".header").style.paddingBottom = "60px";
     document.querySelector(".information-title").style.display = "block";
+    document.querySelector(".information-main").style.display = "";
   });
 
 const copiedText = document.querySelector(".ip");
