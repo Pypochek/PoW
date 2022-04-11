@@ -66,20 +66,23 @@ copiedText.addEventListener("click", function () {
 // Липкое меню
 
 let header = document.getElementById("headPage");
-let sticky = header.offsetTop;
+let sticky = header.offsetTop + 35;
 
 function ScrollFunction() {
-  if (window.pageYOffset >= sticky) {
-    header.classList.add("sticky-header");
-    document.querySelector(".name").style.paddingRight = "40px";
-    document.querySelector(".name-bitshort").style.paddingRight = "40px";
-    document.querySelector(".header").style.paddingBottom = "80px";
-  } else {
-    header.classList.remove("sticky-header");
-    document.querySelector(".name").style.paddingRight = "0";
-    document.querySelector(".name-bitshort").style.paddingRight = "0";
-    document.querySelector(".header").style.paddingBottom = "60px";
-  }
+  if (screen.width <= 900) {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky-header");
+      document.querySelector(".name").style.paddingRight = "50px";
+      document.querySelector(".name-bitshort").style.paddingRight = "50px";
+
+      document.querySelector(".header").style.paddingBottom = "80px";
+    } else {
+      header.classList.remove("sticky-header");
+      document.querySelector(".name").style.paddingRight = "0";
+      document.querySelector(".name-bitshort").style.paddingRight = "0";
+      document.querySelector(".header").style.paddingBottom = "60px";
+    }
+  } else console.log();
 }
 
 window.onscroll = function () {

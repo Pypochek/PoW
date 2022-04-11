@@ -254,8 +254,8 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, rgba(0,212,255,1) 100%);
     
   }
   
-  
 }
+
 
 @media (min-width: 1015px) {
   .menu-button {
@@ -315,6 +315,8 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, rgba(0,212,255,1) 100%);
   .information-title-text {
     text-align: center;
   }
+
+
 }
 
 @media (max-width: 1325px) {
@@ -330,6 +332,7 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, rgba(0,212,255,1) 100%);
     
     margin-right: 3px;
   }
+
   
 }
 
