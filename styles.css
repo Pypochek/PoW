@@ -18,6 +18,7 @@ html {
   
 }
 
+
 .menu {
   display: inline;
 }
@@ -349,4 +350,20 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, rgba(0,212,255,1) 100%);
     
     
   }
+
+  .sticky-header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: rgb(58, 58, 58);
+  }
+  
+  .sticky + .middle-position {
+  
+    padding-top: 102px;
+  
+  }
+
+
+  
 }
