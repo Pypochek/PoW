@@ -31,7 +31,7 @@ const button = document
 const buttonClose = document
   .querySelector(".close-icon")
   .addEventListener("click", function () {
-    document.querySelector(".header").style.backgroundColor = "transparent";
+    document.querySelector(".header").style.backgroundColor = "";
     document.querySelector(".menu").style.display = "none";
 
     if (screen.width >= 515) {
