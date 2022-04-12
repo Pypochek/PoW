@@ -40,7 +40,7 @@ const buttonClose = document
       document.querySelector(".name-bitshort").style.display = "block";
     }
     document.querySelector(".close-icon").style.display = "none";
-    document.querySelector(".header").style.paddingBottom = "60px";
+    // document.querySelector(".header").style.paddingBottom = "60px";
     document.querySelector(".information-title").style.display = "block";
     document.querySelector(".information-main").style.display = "";
     document.querySelector(".players-list").style.display = "";
