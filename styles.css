@@ -3,7 +3,12 @@ html {
   padding: 0px;
 
   /* height: 50%; */
-  background-color: rgb(58, 58, 58);
+  /* background-color: rgb(58, 58, 58); */
+  background-color: #6e4b00;
+   opacity: 1;
+  background-image:  linear-gradient(30deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(150deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(30deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(150deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(60deg, #1eae4277 25%, transparent 25.5%, transparent 75%, #1eae4277 75%, #1eae4277), linear-gradient(60deg, #1eae4277 25%, transparent 25.5%, transparent 75%, #1eae4277 75%, #1eae4277);
+  background-size: 16px 28px;
+  background-position: 0 0, 0 0, 8px 14px, 8px 14px, 0 0, 8px 14px;
 }
 
 .header {
