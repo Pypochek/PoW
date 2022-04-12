@@ -216,6 +216,11 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
   font-family: Times, Times New Roman, serif;
 }
 
+.mail {
+  text-decoration: none;
+  color: #00d4ff;
+}
+
 .mail:hover{
   text-decoration: none;
   color: white;
