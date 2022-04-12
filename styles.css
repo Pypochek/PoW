@@ -142,7 +142,7 @@ html {
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 20%, #00d4ff 100%);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+  border-radius: 5px;
 }
 
 .information-title-text {
@@ -171,6 +171,8 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
   width: auto;
 
   z-index: 1;
+
+  border-radius: 5px;
   
 }
 
@@ -198,6 +200,7 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
   background: rgb(0,0,0);
   background: linear-gradient(90deg, #000000 0%, #005b6e 100%);
   width: 70%;
+  border-radius: 5px;
   
 }
 
@@ -214,6 +217,7 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
   padding: 50px;
   font-size: 15px;
   font-family: Times, Times New Roman, serif;
+  border-radius: 5px;
 }
 
 .mail {
@@ -413,7 +417,19 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
     width: 100%;
     background-color: transparent;
     opacity: 1;
-    
+    animation-duration: 0.5s;
+    animation-name: slideUp;
+  }
+
+  @keyframes slideUp {
+    from {
+      margin-left: 100px;
+    } 
+    to {
+
+      margin-top: 0%;
+
+    }
   }
   
   .sticky + .middle-position {
@@ -425,7 +441,7 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
   .players-list {
     margin-bottom: 25px;
   }
-
+  
 
   
 }
