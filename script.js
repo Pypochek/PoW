@@ -76,11 +76,16 @@ function ScrollFunction() {
       document.querySelector(".name-bitshort").style.paddingRight = "50px";
 
       document.querySelector(".header").style.paddingBottom = "80px";
+      document.querySelector(".name").classList.add("ip-animation");
+      document.querySelector(".name-bitshort").classList.add("ip-animation");
     } else {
       header.classList.remove("sticky-header");
       document.querySelector(".name").style.paddingRight = "0";
       document.querySelector(".name-bitshort").style.paddingRight = "0";
       document.querySelector(".header").style.paddingBottom = "60px";
+
+      document.querySelector(".name").classList.remove("ip-animation");
+      document.querySelector(".name-bitshort").classList.remove("ip-animation");
     }
   } else console.log();
 }

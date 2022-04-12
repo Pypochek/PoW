@@ -411,25 +411,32 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
     
   }
 
+  .ip-animation {
+
+    
+    animation-duration: 3s;
+    animation-name: slideUp;
+    
+  }
+  
+  @keyframes slideUp {
+    from {
+      width:0%;
+    } 
+    to {
+      
+      width: 100%;
+
+    }
+  }
+  
+
   .sticky-header {
     position: fixed;
     top:0;
     width: 100%;
     background-color: transparent;
     opacity: 1;
-    animation-duration: 0.5s;
-    animation-name: slideUp;
-  }
-
-  @keyframes slideUp {
-    from {
-      margin-left: 100px;
-    } 
-    to {
-
-      margin-top: 0%;
-
-    }
   }
   
   .sticky + .middle-position {
