@@ -4,11 +4,20 @@ html {
 
   /* height: 50%; */
   /* background-color: rgb(58, 58, 58); */
-  background-color: #6e4b00;
+
+
+  /* background-color: #6e4b00;
    opacity: 1;
   background-image:  linear-gradient(30deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(150deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(30deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(150deg, #1eae42 12%, transparent 12.5%, transparent 87%, #1eae42 87.5%, #1eae42), linear-gradient(60deg, #1eae4277 25%, transparent 25.5%, transparent 75%, #1eae4277 75%, #1eae4277), linear-gradient(60deg, #1eae4277 25%, transparent 25.5%, transparent 75%, #1eae4277 75%, #1eae4277);
   background-size: 16px 28px;
-  background-position: 0 0, 0 0, 8px 14px, 8px 14px, 0 0, 8px 14px;
+  background-position: 0 0, 0 0, 8px 14px, 8px 14px, 0 0, 8px 14px; */
+  
+  background-color: #000000;
+  opacity: 1;
+  background-image:  linear-gradient(30deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(150deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(30deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(150deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(60deg, #00d4ff77 25%, transparent 25.5%, transparent 75%, #00d4ff77 75%, #00d4ff77), linear-gradient(60deg, #00d4ff77 25%, transparent 25.5%, transparent 75%, #00d4ff77 75%, #00d4ff77);
+  background-size: 28px 49px;
+  background-position: 0 0, 0 0, 14px 25px, 14px 25px, 0 0, 14px 25px;
+
 }
 
 .header {
@@ -131,7 +140,7 @@ html {
   color: white;
 
   background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 20%, #00d4ff 100%);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
 }
@@ -156,7 +165,7 @@ html {
   color: white;
 
   background: rgb(0,91,110);
-background: linear-gradient(90deg, rgba(0,91,110,1) 0%, rgba(0,212,255,1) 100%);
+background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   width: auto;
