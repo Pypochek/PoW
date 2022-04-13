@@ -2,8 +2,9 @@ html {
   margin: 0px;
   padding: 0px;
 
-  /* height: 50%; */
-  /* background-color: rgb(58, 58, 58); */
+  /* height: 50%; 
+  background-color: rgb(58, 58, 58); */
+  background-image: linear-gradient(90deg, rgba(0,0,0,1) 20%, #00d4ff 100%);
 
 
   /* background-color: #6e4b00;
@@ -12,11 +13,12 @@ html {
   background-size: 16px 28px;
   background-position: 0 0, 0 0, 8px 14px, 8px 14px, 0 0, 8px 14px; */
   
-  background-color: #000000;
+  /* background-color: #000000;
   opacity: 1;
   background-image:  linear-gradient(30deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(150deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(30deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(150deg, #00d4ff 12%, transparent 12.5%, transparent 87%, #00d4ff 87.5%, #00d4ff), linear-gradient(60deg, #00d4ff77 25%, transparent 25.5%, transparent 75%, #00d4ff77 75%, #00d4ff77), linear-gradient(60deg, #00d4ff77 25%, transparent 25.5%, transparent 75%, #00d4ff77 75%, #00d4ff77);
   background-size: 28px 49px;
-  background-position: 0 0, 0 0, 14px 25px, 14px 25px, 0 0, 14px 25px;
+  background-position: 0 0, 0 0, 14px 25px, 14px 25px, 0 0, 14px 25px; */
+
 
 }
 
