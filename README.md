@@ -1,8 +1,7 @@
-# PoW
-Politics or war site
+[Politics or War](https://gohavelik.github.io/PoW/)
 
+[dicrod confa](https://discord.com/invite/xMJQapRBYe)
 
-THis site need for Politics or War Minecraft server. Also this project is my mine "homework" for me.
-If u want to fork my project - do it.
+---
 
-11.04.2022
+![alt text](https://raw.githubusercontent.com/gohavelik/PoW/main/imgs/123123123.jpg "Logo Title Text 1")
