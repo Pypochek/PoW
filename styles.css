@@ -28,7 +28,7 @@ html {
   padding: 30px;
   
   color: white;
-
+  background-color: rgb(0, 0, 0);
   background-color: black;
   z-index: 2;
 
@@ -439,20 +439,11 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
     position: fixed;
     top:0;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     opacity: 1;
   }
 
-  /* Сделать ширину заднего фона адекватную, 
-  Сделать opacity только для заднего фона 
-  Пофиксить после открытия меню паддинг*/
 
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
 
 
 

@@ -44,6 +44,7 @@ const buttonClose = document
     document.querySelector(".information-title").style.display = "block";
     document.querySelector(".information-main").style.display = "";
     document.querySelector(".players-list").style.display = "";
+    document.querySelector(".header").style.paddingBottom = "";
   });
 
 //
