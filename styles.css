@@ -29,7 +29,7 @@ html {
   
   color: white;
 
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   z-index: 2;
 
   
@@ -424,10 +424,12 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
   @keyframes slideUp {
     from {
       width:0%;
+      opacity: 0.5;
     } 
     to {
       
       width: 100%;
+      opacity: 1;
 
     }
   }
@@ -437,9 +439,25 @@ background: linear-gradient(90deg, rgba(0,91,110,1) 0%, #00d4ff 100%);
     position: fixed;
     top:0;
     width: 100%;
-    background-color: transparent;
+    background-color: black;
     opacity: 1;
   }
+
+  /* Сделать ширину заднего фона адекватную, 
+  Сделать opacity только для заднего фона 
+  Пофиксить после открытия меню паддинг*/
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
   
   .sticky + .middle-position {
   
